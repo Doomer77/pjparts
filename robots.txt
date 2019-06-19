@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+
+Host: https://pjparts.ru/
+Sitemap: https://pjparts.ru/sitemap.xml
