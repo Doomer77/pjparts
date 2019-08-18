@@ -1,0 +1,122 @@
+@charset "UTF-8";
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  overflow: hidden; }
+  .bg-video__content {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover; }
+
+@font-face {
+  font-family: Oswald;
+  /* Гарнитура шрифта */
+  src: url(../fonts/Oswald-Bold.ttf);
+  /* Путь к файлу со шрифтом */ }
+
+@font-face {
+  font-family: RobotoCondensed;
+  /* Гарнитура шрифта */
+  src: url(../fonts/RobotoCondensed-Regular.ttf);
+  /* Путь к файлу со шрифтом */ }
+
+.header {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.8); }
+  .header__container {
+    width: 1110px;
+    height: 100%;
+    margin: 0 auto; }
+  .header__top {
+    padding: 3rem 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .header__logo-box {
+    width: 20%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+  .header__text-box {
+    margin-top: 1.2rem; }
+  .header__text {
+    font-family: RobotoCondensed;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    text-transform: uppercase;
+    color: #ffbe45; }
+  .header__contact {
+    margin-top: 2rem; }
+  .header__link:visited, .header__link:link {
+    font-family: RobotoCondensed;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    text-transform: uppercase;
+    color: #ffbe45;
+    text-decoration: none; }
+    .header__link:visited:not(:last-child), .header__link:link:not(:last-child) {
+      margin-right: 2rem; }
+    .header__link:visited:hover, .header__link:link:hover {
+      color: #fff;
+      -webkit-transition: color 0.5s;
+      -o-transition: color 0.5s;
+      transition: color 0.5s; }
+
+.logo-box__link {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none; }
+
+.logo-box__img {
+  height: 6rem;
+  margin-right: 1.5rem; }
+
+.logo-box__text {
+  font-family: Oswald;
+  font-size: 3.3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffbe45; }
