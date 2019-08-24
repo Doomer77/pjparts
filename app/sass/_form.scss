@@ -1,0 +1,63 @@
+.form{
+  width: 100%; 
+  padding: 2rem;
+  background-color: $black-opacity-1;  
+  border-radius: 0.5rem;
+  &__group{
+    margin-bottom: 2rem; 
+  }
+  &__input{
+    width: 100%;
+    padding: 1.2rem 1.8rem;  
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;    
+    line-height: 2rem; 
+    color: $black; 
+    border-radius: 0.3rem; 
+    border: none;
+    outline: none;  
+    &::placeholder{ 
+      color: $black;    
+    } 
+  }
+  &__textarea{
+    width: 100%;
+    height: 13rem; 
+    padding: 1.2rem 1.8rem; 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;    
+    line-height: 2rem; 
+    color: $black; 
+    border-radius: 0.3rem; 
+    border: none;
+    outline: none; 
+    resize: none;  
+    &::placeholder{ 
+      color: $black;     
+    } 
+  }
+  &__buttom{
+    display: block;
+    margin: 0 auto; 
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    padding: 1.6rem 4.6rem; 
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 700;   
+    text-align: center;  
+    border-radius: 0.3rem;
+    outline: none;
+    border: none;
+    background-color: $main-orange-color-3;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .5s;
+    &:hover{
+      background-color: $white;
+      opacity: 0.5;
+    } 
+  } 
+}
