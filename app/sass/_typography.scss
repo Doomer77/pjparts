@@ -1,3 +1,14 @@
+.heading-primary{
+  text-align: center;
+  font-family: 'Oswald', sans-serif; 
+  font-size: 2.5rem;
+  line-height: 3.3rem; 
+  font-weight: 500;
+  text-transform: uppercase; 
+}
+.heading-primary--white{
+  color: $white;
+}  
 .heading-secondary{
   text-align: center;
   margin-bottom: 1.5rem; 
@@ -9,7 +20,7 @@
   text-transform: uppercase;
 }
 .description{
-  font-family: 'Oswald', sans-serif;  
+  font-family: 'Oswald', sans-serif;   
   font-weight: 300;
   font-size: 2.5rem;
   line-height: 3.3rem;
@@ -19,6 +30,6 @@
     margin-bottom: 7rem;    
   }
   &__big{
-    color: $main-orange-color-2; 
+    color: $main-orange-color-2;  
   }
 }

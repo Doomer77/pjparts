@@ -1,4 +1,3 @@
-@charset "UTF-8";
 *,
 *::after,
 *::before {
@@ -27,36 +26,6 @@ body {
     width: 100%;
     -o-object-fit: cover;
        object-fit: cover; }
-
-@font-face {
-  font-family: Oswald;
-  /* Гарнитура шрифта */
-  src: url(../fonts/Oswald-Bold.ttf);
-  /* Путь к файлу со шрифтом */ }
-
-@font-face {
-  font-family: Oswald;
-  /* Гарнитура шрифта */
-  src: url(../fonts/Oswald-Regular.ttf);
-  /* Путь к файлу со шрифтом */ }
-
-@font-face {
-  font-family: RobotoCondensed;
-  /* Гарнитура шрифта */
-  src: url(../fonts/RobotoCondensed-Regular.ttf);
-  /* Путь к файлу со шрифтом */ }
-
-@font-face {
-  font-family: OpenSans;
-  /* Гарнитура шрифта */
-  src: url(../fonts/OpenSans-Regular.ttf);
-  /* Путь к файлу со шрифтом */ }
-
-@font-face {
-  font-family: OpenSans;
-  /* Гарнитура шрифта */
-  src: url(../fonts/OpenSans-Bold.ttf);
-  /* Путь к файлу со шрифтом */ }
 
 .form {
   width: 100%;
@@ -192,7 +161,7 @@ body {
       transition: color 0.5s; }
   .header__bottom {
     width: 100%;
-    margin-top: 4.5rem;
+    padding: 4.5rem 0;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -237,6 +206,94 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   color: #ffbe45; }
+
+.price {
+  width: 100%;
+  padding: 5rem 0;
+  background-color: #000000;
+  background-image: url(../img/fon-price.png);
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-position: center;
+  background-repeat: repeat; }
+  .price__container {
+    width: 1140px;
+    height: 100%;
+    margin: 0 auto; }
+  .price__table {
+    width: 100%;
+    margin-top: 2.5rem; }
+
+.note-box {
+  width: 100%;
+  margin-top: 4.5rem; }
+  .note-box__text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.2rem;
+    line-height: 3.3rem;
+    font-weight: 600;
+    color: #fff; }
+
+td {
+  border: 1px solid #fff; }
+
+th {
+  border: 1px solid #fff; }
+
+.table {
+  width: 100%;
+  border: 1px solid #fff;
+  border-collapse: collapse; }
+  .table__power, .table__form-sm {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem;
+    line-height: 3.3rem;
+    font-weight: bold;
+    color: #ffbc4d;
+    text-align: center; }
+  .table__number-sm {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.7rem;
+    line-height: 3.3rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center; }
+  .table__price {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    line-height: 3.3rem;
+    font-weight: bold;
+    color: #ffbc4d;
+    text-align: center; }
+  .table__graduation {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8rem;
+    line-height: 3.3rem;
+    font-weight: 400;
+    color: #fff;
+    text-align: center; }
+  .table__footer {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.2rem;
+    line-height: 3.3rem;
+    font-weight: 400;
+    color: #ffbc4d;
+    text-align: center; }
+    .table__footer--mod {
+      font-size: 2.1rem;
+      color: #fff;
+      font-weight: 700; }
+
+.heading-primary {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5rem;
+  line-height: 3.3rem;
+  font-weight: 500;
+  text-transform: uppercase; }
+
+.heading-primary--white {
+  color: #fff; }
 
 .heading-secondary {
   text-align: center;
