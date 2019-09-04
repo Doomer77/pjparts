@@ -1,0 +1,25 @@
+.serving{
+  width: 100%;
+  padding: 5rem 0;
+  background: $white;
+  &__container{
+    width: 1140px;
+    margin: 0 auto;
+  }
+  &__brands{
+    width: 100%;
+    margin-top: 5rem; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+  } 
+  &__brand{
+    width: 30%;
+    margin-top: 5rem;
+  }
+  &__brand-center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}

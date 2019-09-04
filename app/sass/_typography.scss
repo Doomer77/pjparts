@@ -5,10 +5,18 @@
   line-height: 3.3rem; 
   font-weight: 500;
   text-transform: uppercase; 
+  &--white{
+    color: $white;
+  } 
+  &--black{
+    color: $black;
+  } 
+  &--orange{
+    color: $main-orange-color-2;
+  }
 }
-.heading-primary--white{
-  color: $white;
-}  
+
+
 .heading-secondary{
   text-align: center;
   margin-bottom: 1.5rem; 
@@ -27,7 +35,7 @@
   color: $white;
   text-align: justify;
   &:not(:last-child){
-    margin-bottom: 7rem;    
+    margin-bottom: 5rem;    
   }
   &__big{
     color: $main-orange-color-2;  
