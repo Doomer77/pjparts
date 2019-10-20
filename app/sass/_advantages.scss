@@ -2,6 +2,9 @@
   width: 100%;
   background: linear-gradient(rgba(12, 79, 122, 0.7), rgba(0, 24, 34, 0.7)), 
               url(../img/bg2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 10em 0;
   &__container{
     width: 1140px;
