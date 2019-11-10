@@ -18,7 +18,7 @@
     border: none;
     outline: none;  
     &::placeholder{ 
-      color: $black;    
+      color: $black-opacity-1;    
     } 
   }
   &__textarea{
@@ -35,7 +35,7 @@
     outline: none; 
     resize: none;  
     &::placeholder{ 
-      color: $black;     
+      color: $black-opacity-1;     
     } 
   }
   &__buttom{
