@@ -207,13 +207,18 @@ body {
   width: 100%;
   height: 100vh;
   position: relative;
-  background-color: rgba(0, 0, 0, 0.8); }
+  background-color: rgba(0, 0, 0, 0.95); }
+  .header--dgu {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0); }
   .header__container {
     width: 1140px;
     height: 100%;
     margin: 0 auto; }
   .header__top {
-    padding: 3rem 0;
+    padding: 2rem 0 2rem 0;
     display: flex;
     justify-content: space-between; }
   .header__logo-box {
@@ -229,6 +234,17 @@ body {
     line-height: 2rem;
     text-transform: uppercase;
     color: #ffbe45; }
+    .header__text--sub {
+      color: #fff; }
+  .header__nav {
+    width: 30%; }
+  .header__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem; }
+  .header__item {
+    list-style: none; }
   .header__contact {
     margin-top: 2rem; }
   .header__link:visited, .header__link:link {
@@ -245,7 +261,7 @@ body {
       transition: color 0.5s; }
   .header__bottom {
     width: 100%;
-    padding: 4.5rem 0;
+    padding: 1rem 0;
     display: flex;
     justify-content: space-between;
     align-items: center; }
@@ -281,7 +297,7 @@ body {
 
 .price {
   width: 100%;
-  padding: 10rem 0;
+  padding: 4rem 0;
   background-color: #000000;
   background-image: url(../img/fon-price.png);
   background-size: cover;
@@ -307,7 +323,7 @@ body {
 
 .serving {
   width: 100%;
-  padding: 10rem 0;
+  padding: 4rem 0;
   background: #fff; }
   .serving__container {
     width: 1140px;
@@ -328,11 +344,11 @@ body {
 
 .services {
   width: 100%;
-  background-image: linear-gradient(rgba(225, 255, 255, 0.7), rgba(225, 255, 255, 0.7)), url("../img/bg1.jpg");
+  background-image: linear-gradient(rgba(225, 255, 255, 0.7), rgba(225, 255, 255, 0.7)), url("../img/bg2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 10rem 0; }
+  padding: 4rem 0; }
   .services__container {
     width: 1140px;
     margin: 0 auto; }

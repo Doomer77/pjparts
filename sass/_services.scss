@@ -1,10 +1,10 @@
 .services{
     width: 100%;
-    background-image: linear-gradient(rgba(225, 255, 255, 0.7), rgba(225, 255, 255, 0.7)),  url('../img/bg1.jpg');
+    background-image: linear-gradient(rgba(225, 255, 255, 0.7), rgba(225, 255, 255, 0.7)),  url('../img/bg2.jpg'); 
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    padding: 10rem 0;
+    background-repeat: no-repeat;   
+    padding: 4rem 0;   
     &__container{
         width: 1140px;
         margin: 0 auto;
